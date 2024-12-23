@@ -9,7 +9,7 @@
 
 ## 指導老師： 羅峻旗老師
 ## 會議記錄：
-- [第一次會議記錄.pdf]()
+- [第一次會議記錄.pdf](https://github.com/KushOmierTrei/2025/blob/main/%E8%82%A1%E7%A5%A8%E7%A0%94%E7%A9%B6/%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%9C%83%E8%AD%B0%E8%A8%98%E9%8C%84.pdf)
 - [第二次會議記錄.pdf]()
 
 ## 畢業專題計畫書：
