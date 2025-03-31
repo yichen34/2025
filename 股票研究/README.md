@@ -13,7 +13,7 @@
 - [第二次會議記錄.pdf](https://github.com/KushOmierTrei/2025/blob/main/%E8%82%A1%E7%A5%A8%E7%A0%94%E7%A9%B6/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%9C%83%E8%AD%B0%E8%A8%98%E9%8C%84.pdf)
 
 ## 畢業專題計畫書：
-[畢業專題計畫書.pdf]()
+[畢業專題計畫書.pdf](https://github.com/KushOmierTrei/2025/blob/main/%E8%82%A1%E7%A5%A8%E7%A0%94%E7%A9%B6/%E5%B0%88%E9%A1%8C%E8%A8%88%E5%8A%83%E6%9B%B8.pdf)
 
 ## 成果報告書：
 [成果報告書.pdf]()
