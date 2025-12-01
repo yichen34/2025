@@ -1,9 +1,0 @@
-train: "C:/Users/user/PycharmProjects/rice leaf diseases dataset/yolo11_train/train/images"
-val: "C:/Users/user/PycharmProjects/rice leaf diseases dataset/yolo11_train/val/images"
-
-nc: 3
-names:
-  0: Bacterialblight   # 稻瘟病
-  1: Brownspot         # 褐斑病
-  2: Blast             # 稻熱病 (原本 Leafsmut 改成 Blast)
-task: segment
