@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+ {% block title %}稻作網頁{% endblock %} 
+{% block content %}
+<div style="text-align: center;">
+    <img src="https://info.organic.org.tw/wp-content/uploads/2018/12/tgr5.jpg" style="max-width:100%; border-radius:10px;" alt="稻作圖片">
+</div>
+
+<div style="margin-top: 20px; text-align: center;">
+    <h3>目前 {{ city }} 天氣</h3>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% else %}
+        <p>溫度: {{ temperature }} °C</p>
+        <p>天氣狀況: {{ description }}</p>
+        <img src="http://openweathermap.org/img/wn/{{ icon }}@2x.png" alt="Weather Icon">
+    {% endif %}
+    <form method="get" style="margin-top: 20px;">
+        <input type="text" name="city" placeholder="輸入縣市名稱" style="padding: 5px;">
+        <button type="submit" style="padding: 5px;">查詢</button>
+    </form>
+</div>
+{% endblock %}

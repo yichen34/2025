@@ -1,0 +1,166 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}稻葉病害辨識{% endblock %}
+
+{% block content %}
+<h1>上傳稻葉圖片進行病害辨識</h1>
+<h4>(此辨識工具目前僅針對稻熱病、白葉枯病、褐斑病)</h4>
+
+<form id="upload-form" method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  <input id="file-input" type="file" name="image" accept="image/*" required>
+  <button type="submit">辨識</button>
+
+  {# 圖片即時預覽 #}
+  <div class="preview" id="preview-box">
+    <img id="preview-img" alt="預覽會顯示在這裡">
+  </div>
+</form>
+
+{# 你原本的結果區塊 #}
+{% if uploaded %}
+  <h2>辨識結果：</h2>
+  {% if detected_classes %}
+    <ul>
+      {% for name in detected_classes %}
+        <li>{{ name }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>沒有偵測到任何病害，請換一張圖片試試。</p>
+  {% endif %}
+{% endif %}
+
+{# ✅ 新增：對應建議（以 JSON 內容為準）；需 views.py 提供 guides #}
+{% if uploaded and guides %}
+  <h2>建議解決方法</h2>
+  <ul class="guide-list">
+    {% for g in guides %}
+      <li>
+        <strong>{{ g.display_name }}</strong>
+        {% if g.solutions %}
+          <details open>
+            <summary>處理建議</summary>
+            <ol>
+              {% for s in g.solutions %}
+                <li>{{ s }}</li>
+              {% endfor %}
+            </ol>
+          </details>
+        {% else %}
+          <p>目前尚無對應的處理建議，請稍後補充。</p>
+        {% endif %}
+
+        {% if g.prevention %}
+          <details>
+            <summary>預防建議</summary>
+            <ul>
+              {% for p in g.prevention %}
+                <li>{{ p }}</li>
+              {% endfor %}
+            </ul>
+          </details>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{# 用 data-* 傳布林，不在 JS 內塞模板語法 #}
+<div id="page-flags" data-uploaded="{% if uploaded %}true{% else %}false{% endif %}"></div>
+
+{# 用 json_script 傳陣列（若無則輸出 []），歷史紀錄腳本要用得到 #}
+{% if detected_classes %}
+  {{ detected_classes|json_script:"detected-data" }}
+{% else %}
+  <script id="detected-data" type="application/json">[]</script>
+{% endif %}
+
+<hr>
+<h2>辨識歷史紀錄</h2>
+<div style="margin-bottom:8px;">
+  <button id="clear-history" type="button">清除歷史紀錄</button>
+</div>
+<ul id="history-list"></ul>
+
+{# ===== 靜態資源：預覽、建議樣式 ===== #}
+<link rel="stylesheet" href="{% static 'css/image-preview.css' %}">
+<link rel="stylesheet" href="{% static 'css/guide.css' %}">
+<script defer src="{% static 'js/image-preview.js' %}"></script>
+
+{# ===== 你原本的歷史紀錄腳本（保持原樣） ===== #}
+<script>
+(function () {
+  const STORAGE_KEY = 'disease_history_v1';
+  const LAST_FILENAME_KEY = 'last_upload_filename';
+
+  // 表單送出前記住檔名（刷新後 input 會清空）
+  const form = document.getElementById('upload-form');
+  const fileInput = document.getElementById('file-input');
+  form.addEventListener('submit', function () {
+    if (fileInput.files && fileInput.files.length > 0) {
+      localStorage.setItem(LAST_FILENAME_KEY, fileInput.files[0].name);
+    }
+  });
+
+  function loadRecords() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch (_) { return []; } }
+  function saveRecords(records) {
+    const MAX = 50;
+    if (records.length > MAX) records = records.slice(records.length - MAX);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(records));
+  }
+  function addRecord(filename, result) {
+    const recs = loadRecords();
+    recs.push({ filename, result, ts: Date.now() });
+    saveRecords(recs);
+    renderHistory();
+  }
+  function renderHistory() {
+    const list = document.getElementById('history-list');
+    const recs = loadRecords().slice().reverse();
+    list.innerHTML = '';
+    if (recs.length === 0) {
+      list.innerHTML = '<li>目前沒有紀錄</li>';
+      return;
+    }
+    for (const r of recs) {
+      const li = document.createElement('li');
+      const t = new Date(r.ts).toLocaleString();
+      li.textContent = `[${t}] ${r.filename} → ${r.result}`;
+      list.appendChild(li);
+    }
+  }
+
+  document.getElementById('clear-history').addEventListener('click', function () {
+    if (confirm('確定要清除所有歷史紀錄嗎？')) {
+      localStorage.removeItem(STORAGE_KEY);
+      renderHistory();
+    }
+  });
+
+  // 頁面載入：先渲染歷史，再視情況寫入本次結果
+  document.addEventListener('DOMContentLoaded', function () {
+    renderHistory();
+
+    const flagEl = document.getElementById('page-flags');
+    const isUploaded = flagEl && flagEl.dataset.uploaded === 'true';
+    if (!isUploaded) return;
+
+    const filename = localStorage.getItem(LAST_FILENAME_KEY) || '（未取得檔名）';
+
+    let detected = [];
+    const scriptEl = document.getElementById('detected-data');
+    if (scriptEl) {
+      try { detected = JSON.parse(scriptEl.textContent); } catch (_) { detected = []; }
+    }
+    const resultText = (detected && detected.length > 0)
+        ? detected.join(', ')
+        : '沒有偵測到任何病害';
+
+    addRecord(filename, resultText);
+    localStorage.removeItem(LAST_FILENAME_KEY);
+  });
+})();
+</script>
+{% endblock %}

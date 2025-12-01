@@ -1,0 +1,11 @@
+/* 圖片預覽外框 */
+.preview {
+  width: 320px; aspect-ratio: 1/1;
+  border: 2px dashed #ccc; border-radius: 12px;
+  display: grid; place-items: center; overflow: hidden; background: #fafafa;
+  margin-top: 10px;
+}
+/* 沒圖時不顯示 img，選到檔案才顯示 */
+.preview img { width: 100%; height: 100%; object-fit: cover; display: none; }
+.preview--has-img img { display: block; }
+

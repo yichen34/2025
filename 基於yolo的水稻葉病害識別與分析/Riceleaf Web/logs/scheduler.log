@@ -1,0 +1,547 @@
+
+===================== 
+[START] 2025/11/05 ¶g¤T 22:39:36.11 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps\python.exe
+Running: python "D:\code\myproject\myapp\rice_crawler.py" 
+[END] 2025/11/05 ¶g¤T 22:39:36.70  (exitcode=9009) 
+===================== 
+
+===================== 
+[START] 2025/11/05 ¶g¤T 22:46:51.82 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+??Python not found at: C:\Users\Mizuyu\AppData\Local\Programs\Python\Python311\python.exe 
+[END] 2025/11/05 ¶g¤T 22:46:52.16  (exitcode=0) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:18:21.42 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+??Python not found at: C:\Users\Mizuyu\AppData\Local\Programs\Python\Python311\python.exe 
+[END] 2025/11/06 ¶g¥| 15:18:21.67  (exitcode=0) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:24:36.36 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+Python 3.12.4
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[END] 2025/11/06 ¶g¥| 15:24:37.05  (exitcode=1) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:27:04.27 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.4
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+??Output: D:\code\myproject\data\crawl_result.json (size=138 bytes, modified=2025/11/05 ¤U¤È 10:20
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:27:05.17 (exitcode=1) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:29:39.52 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.4
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+??Output: D:\code\myproject\data\crawl_result.json (size=138 bytes, modified=2025/11/05 ¤U¤È 10:20
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:29:40.42 (exitcode=1) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:35:38.36 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+D:\code\myproject\myapp\rice_crawler.py:36: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  tables = pd.read_html(r.text)
+[2025-11-06 15:35:39] ¶}©lª¦¨ú½_¦Ì¸ê®Æ...
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 53, in main
+    log(f"\u2705 ª¦¨ú§¹¦¨¡A¦@ {len(data)} µ§¸ê®Æ¡A¤w¦s¤J {OUTPUT}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2705' in position 22: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 61, in <module>
+    main()
+  File "D:\code\myproject\myapp\rice_crawler.py", line 55, in main
+    log(f"\u274c µo¥Í¿ù»~: {e}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 22: illegal multibyte sequence
+??Output: D:\code\myproject\data\crawl_result.json (size=4138 bytes, modified=2025/11/06 ¤U¤È 03:35
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:35:40.74 (exitcode=1) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:43:44.94 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+[§ì¨ú] ¶}©lª¦¨ú½_¦Ì¸ê®Æ...
+[§¹¦¨] rows=10 ¡÷ D:\code\myproject\data\crawl_result.json
+??Output: D:\code\myproject\data\crawl_result.json (size=723 bytes, modified=2025/11/06 ¤U¤È 03:43
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:43:47.17 (exitcode=0) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:44:17.25 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+D:\code\myproject\myapp\rice_crawler.py:36: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  tables = pd.read_html(r.text)
+[2025-11-06 15:44:18] ¶}©lª¦¨ú½_¦Ì¸ê®Æ...
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 53, in main
+    log(f"\u2705 ª¦¨ú§¹¦¨¡A¦@ {len(data)} µ§¸ê®Æ¡A¤w¦s¤J {OUTPUT}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2705' in position 22: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 61, in <module>
+    main()
+  File "D:\code\myproject\myapp\rice_crawler.py", line 55, in main
+    log(f"\u274c µo¥Í¿ù»~: {e}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 22: illegal multibyte sequence
+??Output: D:\code\myproject\data\crawl_result.json (size=4138 bytes, modified=2025/11/06 ¤U¤È 03:44
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:44:19.40 (exitcode=1) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:45:06.75 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+D:\code\myproject\myapp\rice_crawler.py:36: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  tables = pd.read_html(r.text)
+[2025-11-06 15:45:07] ¶}©lª¦¨ú½_¦Ì¸ê®Æ...
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 53, in main
+    log(f"\u2705 ª¦¨ú§¹¦¨¡A¦@ {len(data)} µ§¸ê®Æ¡A¤w¦s¤J {OUTPUT}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2705' in position 22: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 61, in <module>
+    main()
+  File "D:\code\myproject\myapp\rice_crawler.py", line 55, in main
+    log(f"\u274c µo¥Í¿ù»~: {e}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 22: illegal multibyte sequence
+??Output: D:\code\myproject\data\crawl_result.json (size=4138 bytes, modified=2025/11/06 ¤U¤È 03:45
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:45:08.89 (exitcode=1) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:47:36.40 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+D:\code\myproject\myapp\rice_crawler.py:36: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  tables = pd.read_html(r.text)
+[2025-11-06 15:47:37] ¶}©lª¦¨ú½_¦Ì¸ê®Æ...
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 53, in main
+    log(f"\u2705 ª¦¨ú§¹¦¨¡A¦@ {len(data)} µ§¸ê®Æ¡A¤w¦s¤J {OUTPUT}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2705' in position 22: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\myproject\myapp\rice_crawler.py", line 61, in <module>
+    main()
+  File "D:\code\myproject\myapp\rice_crawler.py", line 55, in main
+    log(f"\u274c µo¥Í¿ù»~: {e}")
+  File "D:\code\myproject\myapp\rice_crawler.py", line 24, in log
+    print(f"[{ts}] {msg}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 22: illegal multibyte sequence
+??Output: D:\code\myproject\data\crawl_result.json (size=4138 bytes, modified=2025/11/06 ¤U¤È 03:47
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:47:38.10 (exitcode=1) 
+===================== 
+
+===================== 
+[START] 2025/11/06 ¶g¥| 15:50:29.32 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+[§ì¨ú] ¶}©lª¦¨ú½_¦Ì¸ê®Æ...
+[§¹¦¨] rows=9 ¡÷ D:\code\myproject\data\crawl_result.json
+??Output: D:\code\myproject\data\crawl_result.json (size=3448 bytes, modified=2025/11/06 ¤U¤È 03:50
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/06 ¶g¥| 15:50:31.52 (exitcode=0) 
+===================== 
+
+===================== 
+[START] 2025/11/07 ¶g¤­ 12:42:54.20 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+??Output: D:\code\myproject\data\crawl_result.json (size=4069 bytes, modified=2025/11/06 ¤U¤È 09:24
+??Output not found: D:\code\myproject\data\crawl_result.json 
+[END] 2025/11/07 ¶g¤­ 12:42:56.78 (exitcode=0) 
+===================== 
+
+===================== 
+[START] 2025/11/07 ¶g¤­ 14:36:32.38 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+[OK] Output: D:\code\myproject\data\crawl_result.json (size=4069 bytes, modified=2025-11-06 21:24:31)
+[END] 2025/11/07 ¶g¤­ 14:36:34.21 (exitcode=0) 
+===================== 
+
+===================== 
+[START] 2025/11/07 ¶g¤­ 14:40:30.76 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+[OK] Output: D:\code\myproject\data\crawl_result.json (size=4069 bytes, modified=2025-11-06 21:24:31)
+[TAIL] D:\code\myproject\logs\crawl_debug.log
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+== Columns from https://ag.shuhao.idv.tw/content/ag/RiceData.aspx?p=2 ==
+ - äº¤æ??¥æ?   meta=(None, None)
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+[END] 2025/11/07 ¶g¤­ 14:40:32.37 (python_exit=0) 
+===================== 
+
+===================== 
+[START] 2025/11/07 ¶g¤­ 14:42:23.75 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Running: "C:\Users\Mizuyu\.conda\envs\myenv\python.exe" "D:\code\myproject\myapp\rice_crawler.py" 
+[MISS] Output not found: D:\code\myproject\data\crawl_result.json
+[TAIL] D:\code\myproject\logs\crawl_debug.log
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+== Columns from https://ag.shuhao.idv.tw/content/ag/RiceData.aspx?p=2 ==
+ - äº¤æ??¥æ?   meta=(None, None)
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+[END] 2025/11/07 ¶g¤­ 14:42:25.38 (python_exit=0) 
+===================== 
+
+===================== 
+[START] 2025/11/07 ¶g¤­ 14:48:53.27 
+whoami: 
+msi\mizuyu
+cwd: D:\code\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Crawler not found:  
+[MISS] Output not found: D:\code\myproject\data\crawl_result.json
+[TAIL] D:\code\myproject\logs\crawl_debug.log
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+== Columns from https://ag.shuhao.idv.tw/content/ag/RiceData.aspx?p=2 ==
+ - äº¤æ??¥æ?   meta=(None, None)
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+[END] 2025/11/07 ¶g¤­ 14:48:54.48 (python_exit=2) 
+===================== 
+
+===================== 
+[START] 2025/11/13 ¶g¥| 13:36:47.18 
+whoami: 
+msi\mizuyu
+cwd: D:\Downloads\myproject_bootstrap_mobile\myproject 
+PATH: 
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Mizuyu\AppData\Local\Microsoft\WindowsApps;C:\Users\Mizuyu\AppData\Local\Programs\Microsoft VS Code\bin 
+Python path: C:\Users\Mizuyu\.conda\envs\myenv\python.exe 
+Python 3.12.7
+Python executable: C:\Users\Mizuyu\.conda\envs\myenv\python.exe
+Crawler not found:  
+[OK] Output: D:\Downloads\myproject_bootstrap_mobile\myproject\data\crawl_result.json (size=9063 bytes, modified=2025-11-13 02:38:34)
+[TAIL] D:\Downloads\myproject_bootstrap_mobile\myproject\logs\crawl_debug.log
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+== Columns from https://ag.shuhao.idv.tw/content/ag/RiceData.aspx?p=2 ==
+ - äº¤æ??¥æ?   meta=(None, None)
+ - å¸‚å ´   meta=(None, None)
+ - ?¶å”®:50.95   meta=('?¶å”®', '50.95')
+ - ?¶å”®:55   meta=('?¶å”®', '55')
+ - ?¶å”®:0   meta=('?¶å”®', '0')
+ - ?¶å”®:64.29   meta=('?¶å”®', '64.29')
+ - ?¶å”®:64.17   meta=('?¶å”®', '64.17')
+ - èº‰å”®:4450   meta=('èº‰å”®', '4450')
+ - èº‰å”®:4917   meta=('èº‰å”®', '4917')
+ - èº‰å”®:0   meta=('èº‰å”®', '0')
+ - èº‰å”®:5383   meta=('èº‰å”®', '5383')
+ - èº‰å”®:5375   meta=('èº‰å”®', '5375')
+
+[Mapping example - first non-empty row]
+[?¶å”®] ?¶å”®:50.95 (50.95) -> (?¥é?)
+[?¶å”®] ?¶å”®:55 (55) -> (?¥é?)
+[?¶å”®] ?¶å”®:0 (0) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.29 (64.29) -> (?¥é?)
+[?¶å”®] ?¶å”®:64.17 (64.17) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4450 (4450) -> (?¥é?)
+[èº‰å”®] èº‰å”®:4917 (4917) -> (?¥é?)
+[èº‰å”®] èº‰å”®:0 (0) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5383 (5383) -> (?¥é?)
+[èº‰å”®] èº‰å”®:5375 (5375) -> (?¥é?)
+
+[END] 2025/11/13 ¶g¥| 13:36:48.55 (python_exit=2) 
+===================== 

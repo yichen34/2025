@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>全國稻米價格行情</title>
+  <style>
+    body {
+      font-family: "微軟正黑體", "Noto Sans TC", sans-serif;
+      background-color: #f5f6f8;
+      max-width: 1300px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #004d40;
+      margin-bottom: 10px;
+    }
+    .update {
+      text-align: center;
+      color: #666;
+      margin-bottom: 25px;
+    }
+    h2 {
+      background-color: #00695c;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      margin-top: 40px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+      margin-top: 10px;
+      margin-bottom: 40px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+    th {
+      background-color: #f0f3f4;
+      font-weight: bold;
+    }
+    tr:nth-child(even) td {
+      background-color: #fafafa;
+    }
+    .subhead {
+      background-color: #dcedc8;
+      font-weight: bold;
+    }
+    pre {
+      background: #111;
+      color: #cbd5e1;
+      padding: 10px;
+      border-radius: 6px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>全國稻米價格行情</h1>
+  {% if fetched_at %}
+    <p class="update">資料更新時間：{{ fetched_at }}</p>
+  {% endif %}
+
+  {% if debug_info %}
+    <pre>{{ debug_info|join:"\n" }}</pre>
+  {% endif %}
+
+  {% if day_tables %}
+    {% for date, rows in day_tables %}
+      <h2>📅 {{ date }}</h2>
+      <table>
+        <thead>
+          <tr class="subhead">
+            <th rowspan="2">交易日期</th>
+            <th rowspan="2">市場</th>
+            <th colspan="5">零售（元/公斤）</th>
+            <th colspan="5">躉售（元/百公斤）</th>
+          </tr>
+          <tr>
+            <th>粳種白米</th>
+            <th>硬秈白米</th>
+            <th>軟秈白米</th>
+            <th>圓糯白米</th>
+            <th>長糯白米</th>
+            <th>粳種白米</th>
+            <th>硬秈白米</th>
+            <th>軟秈白米</th>
+            <th>圓糯白米</th>
+            <th>長糯白米</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in rows %}
+          <tr>
+            <td>{{ date }}</td>
+            <td>{{ r.市場 }}</td>
+            <td>{{ r.零售.粳種白米|default_if_none:"-" }}</td>
+            <td>{{ r.零售.硬秈白米|default_if_none:"-" }}</td>
+            <td>{{ r.零售.軟秈白米|default_if_none:"-" }}</td>
+            <td>{{ r.零售.圓糯白米|default_if_none:"-" }}</td>
+            <td>{{ r.零售.長糯白米|default_if_none:"-" }}</td>
+            <td>{{ r.躉售.粳種白米|default_if_none:"-" }}</td>
+            <td>{{ r.躉售.硬秈白米|default_if_none:"-" }}</td>
+            <td>{{ r.躉售.軟秈白米|default_if_none:"-" }}</td>
+            <td>{{ r.躉售.圓糯白米|default_if_none:"-" }}</td>
+            <td>{{ r.躉售.長糯白米|default_if_none:"-" }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% endfor %}
+  {% else %}
+    <p>目前尚無資料，請先執行爬蟲。</p>
+  {% endif %}
+
+</body>
+</html>
